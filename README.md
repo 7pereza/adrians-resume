@@ -1,2 +1,7 @@
-# adrians-resume
- Create and publish an up to date resume for myself and hosting it on Azure.
+# Adrian's Resume
+
+Email: adrianjperez@lewisu.edu
+
+Goal: Create and publish an up to date resume for myself and hosting it on Azure.
+ 
+ 
