@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-
 <html lang="en-US">
 
-<!--TODO: add the last part of the resume 
-    fix the \t and look for errors - then deal with the css -->
+<!--
+ Name: Adrian Perez
 
+ Class: Software Engineering
 
+ Project: Lab 2  - Web Resume
+
+ Description: Make a Resume website for software engineering - as time pass I hope to update this.
+
+-->
 
 <head>
     <meta charset="UTF-8">
@@ -18,25 +23,30 @@
 <body>
 
     <header>
+        <img src="./resume-image.png" alt="image" height="100" width="200" >
         <h1>Adrian Perez</h1>
         <div class="bar">
-            <p>Phone: 815-###-####</p>
-            <p>Emial: </p><a href="mailto:adrianjperez@lewisu.edu">adrianjperez@lewisu.edu</a>
-            <p>City: Joliet, IL</p>
+            <p>Phone: 815-###-#### &emsp; Email: <a href="mailto:adrianjperez@lewisu.edu">adrianjperez@lewisu.edu</a>
+                &emsp; City: Joliet, IL</p>
+
+
         </div>
     </header>
 
-    <h2>Highlights</h2>
-    <ul>
-        <li>Worked on a research project dealing with cracking passwords</li>
-        <li>Able to work independently or in a group; can also work in a remote environment</li>
-        <li>Can work in group to meet a common goal and communicate effectively to others
-            – gain from working in fast food
-        </li>
-        <li>Meet deadlines, problems solve and is able to learn and adapt relatively quick.</li>
-        <!-- Todo need to reread and redo thid list of summary list ????-->
 
-    </ul>
+    <div class="highlight">
+        <h2>Highlights</h2>
+        <ul>
+            <li>Worked on a research project dealing with cracking passwords</li>
+            <li>Able to work independently or in a group; can also work in a remote environment</li>
+            <li>Can work in group to meet a common goal and communicate effectively to others
+                – gain from working in fast food
+            </li>
+            <li>Meet deadlines, problems solve and is able to learn and adapt relatively quick.</li>
+            <!-- Todo need to reread and redo thid list of summary list ????-->
+
+        </ul>
+    </div>
 
     <div class="qualifications">
         <h2>Technical Qualifications</h2>
@@ -45,7 +55,7 @@
         <p>Windows, Linux(Debian), ubuntu server, iOS, Android, VirtualBox</p>
 
         <h3>Languages</h3>
-        <p>Java, Python, XML, JSON C, C++, HTML</p>
+        <p>Java, Python, XML, C, C++, HTML</p>
 
         <h3>Applications</h3>
         <p>Microsoft Office, Nmap, Google Docs, John The Ripper(JTR), Git, WinSCP, Anaconda,
@@ -59,19 +69,11 @@
 
     </div>
 
-    <div class="Education">
-        <h2>Education</h2>
-        <p>Bachelor of Science in Computer Science \t Expected May 2022</p>
-        <p>Lewis University, Romeoville, IL \t GPA: 3.6/4.0</p>
-        <p>Minors: Mathematics</p>
-
-    </div>
-
     <div class="Projects">
         <h2>Projects</h2>
 
         <h3>Dunkin Donuts Calorie (android app)</h3>
-        <p>Mobile Aoolication Development Final Project</p>
+        <p>Mobile Application Development Final Project</p>
         <ul>
             <li>Made an Android app that will show the user a list of food products based on the number
                 of calories the user entered</li>
@@ -90,20 +92,44 @@
                 passwords, and firewall rules. </li>
         </ul>
 
-        <!-- I could add one more project for the resuem i have made -->
-
     </div>
 
 
-    <div class="research"></div>
     <div class="experience">
         <h2>Experience</h2>
-        <h3>Dunkin Donuts \t May 2018 - present </h3>
+        <h3>Dunkin Donuts</h3>
+        <p>&emsp; May 2018 - present</p>
         <ul>
-            <li></li>
+            <li>Took customers order and made sure they receive there requested items</li>
+            <li>Cooked and Handle the customers food while making sure they receive it in a reasonable amount of
+                time</li>
+            <li>Prepared food for future use and made sure to not have too little or too much product</li>
+
         </ul>
+    </div>
+
+
+    <div class="research">
+        <h2>Reseach and Presentation</h2>
+
+        <h3>Lewis University Student Undergraduate Research Experience (S.U.R.E):</h3>
+        <ul>
+            <li>Cracking Passwords with Machine Learning (Advisor: Dr. Jason Perry)</li>
+            <li>Used John The Ripper to compare results with the PassGAN </li>
+        </ul>
+    </div>
+
+
+
+    <div class="Education">
+        <h2>Education</h2>
+        <p>Bachelor of Science in Computer Science &emsp; Expected: May 2022</p>
+        <p>Lewis University, Romeoville, IL &emsp; GPA: 3.6/4.0</p>
+        <p>Minors: Mathematics</p>
 
     </div>
+
+
     <div class="honors">
         <h2>Honors and Awards</h2>
         <ul>
@@ -114,6 +140,11 @@
         </ul>
     </div>
 
+    <footer>
+        <p>Last update on September 2021</p>
+    </footer>
+
 </body>
+
 
 </html>
